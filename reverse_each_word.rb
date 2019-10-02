@@ -4,3 +4,7 @@ def reverse_each_word (string_array)
   return reversed_string_array.join (" ")
     
   end
+  
+def reverse_each_word_collect (string_array)
+  array_to_reverse = string_array.split (" ")
+  
